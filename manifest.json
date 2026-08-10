@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Instagram reader",
+    "version": "1.0",
+    "description": "idk yet",
+    "permissions": ["activeTab"],
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["script.js"],
+        "css": ["style.css"]
+    }]
+}
